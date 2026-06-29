@@ -25,4 +25,5 @@ int main() {
  
   // Print the screen to the console.
   screen.Print();
+  std::cin.get();
 }
