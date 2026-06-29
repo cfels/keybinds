@@ -8,9 +8,9 @@ int main() {
  
   // create a simple TUI window (with name KEYBINDS)
   Element document = vbox({
-    text("///// KEYBINDS /////") | color(0x7dc4e4_rgb) | center |border | flex,
-    keybinds_store() | flex,
-    text("///////// END /////////") | color(0x7dc4e4_rgb) | center |border | flex,
+    text("///// KEYBINDS /////") | color(0x7dc4e4_rgb) | center | border,
+    keybinds_store(),
+    text("///////// END /////////") | color(0x7dc4e4_rgb) | center | border,
     // keybinds in keybind store cpp file
 });
  
