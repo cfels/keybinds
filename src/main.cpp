@@ -11,7 +11,7 @@ int main() {
     text("///// KEYBINDS /////") | color(0x7dc4e4_rgb) | center | border,
     keybinds_store(),
     text("///////// END /////////") | color(0x7dc4e4_rgb) | center | border,
-    // keybinds in keybind store cpp file
+    // keybinds in keybind store hpp file
 });
  
   // Create a screen with full width and height fitting the document.
