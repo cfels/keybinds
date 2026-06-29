@@ -10,4 +10,4 @@ clear && cmake .. && cmake --build .
 ```
 
 ### dotfiles link
-link to dotfiles: [cfels/nixos-dots](https://cfels/nixos-dots)
+link to dotfiles: [cfels/nixos-dots](https://github.com/cfels/nixos-dots)
